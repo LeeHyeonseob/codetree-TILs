@@ -8,6 +8,7 @@ int main() {
 
     int A = n * n;
     if(n < 5){
+        std::cout << A << "\n";
         std::cout << "tiny";
     }
     else{
