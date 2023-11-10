@@ -11,7 +11,7 @@ int main() {
     for(int i=0;i<n; i++){
         int k;
         cin >> k;
-        if(k % 3 == 0){
+        if(k % 3 == 0 && k % 2 == 1){
             cout << k << endl;
         }
     }
