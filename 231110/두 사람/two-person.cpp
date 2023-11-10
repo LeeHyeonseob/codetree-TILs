@@ -11,10 +11,12 @@ int main() {
 
     if( a >= 19 && A == 'M'){
         cout << 1;
+        return 0;
         
     }
     else if(b>= 19 && A == 'M'){
         cout << 1;
+        return 0;
     }
     else{
         cout << 0;
