@@ -17,7 +17,7 @@ int main() {
         }
         
         k--;
-        if(k % 4 == 0){
+        if(k % n == 0){
             cout << "\n";
         }
 
