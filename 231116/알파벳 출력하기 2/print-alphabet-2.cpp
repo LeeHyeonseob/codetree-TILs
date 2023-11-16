@@ -12,7 +12,11 @@ int main() {
             cout << "  ";
         }
         for(int j=i; j<n; j++){
+            if(cnt > 'Z' - 'A'){
+                cnt = 0;
+            }
             char tmp = 'A' + cnt;
+            
             cout << tmp << " ";
             cnt++;
         }
